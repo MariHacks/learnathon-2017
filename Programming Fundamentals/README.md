@@ -41,7 +41,7 @@ print(" %s | %s | %s "   % (board[3],board[4],board[5]))
 print(" %s | %s | %s \n" % (board[6],board[7],board[8]))
 ```
 ### Let user add an X to the board
-```
+```python
 # Initialize board array
 board = [' ']*9
 
