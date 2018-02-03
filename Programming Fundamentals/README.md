@@ -155,6 +155,10 @@ if board[2] == board[4] == board[6] and board[2] != ' ':
     print("There is a winner")
 ```
 ### A cleaner and more efficient way to organize code
+```
+Some example here
+```
+
 ```python
 # Minimum number in a list
 def minList(inputList):
@@ -164,7 +168,7 @@ def minList(inputList):
             currentMin = inputList[num]
     return currentMin
 
-#examples
+# examples
 list1 = [-1, 4, 56, -100, 0]
 print(minList(list1))
 ```
