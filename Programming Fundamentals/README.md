@@ -11,3 +11,9 @@ If you have any questions, you can email us at info@marihacks.com.
 ```python
 print("Hello, world.")
 ```
+
+### Hello, name
+```python
+name = input("What is your name? ")
+print("Hello, %s" % name)
+```
