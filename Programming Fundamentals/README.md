@@ -161,7 +161,7 @@ if board[2] == board[4] == board[6] and board[2] != ' ':
 def minList(inputList):
     currentMin = inputList[0]
     for num in range(1,len(inputList)):
-        if inputList[num]<currentMin:
+        if inputList[num] < currentMin:
             currentMin = inputList[num]
     return currentMin
 
