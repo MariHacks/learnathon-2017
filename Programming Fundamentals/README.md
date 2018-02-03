@@ -77,7 +77,7 @@ if (board[0] == board[1] == board[2] and board[0]!= ' ') or (board[3] == board[4
     print('There is a winner')
 ```
 
-### Intro to if statements
+### Intro to `if` statements
 Example together
 ```python
 guess = input("Give me a number between 1 and 5: ")
