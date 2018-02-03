@@ -7,6 +7,9 @@ Here you'll find all the source code from the workshop.
 
 If you have any questions, you can email us at info@marihacks.com.
 
+* [Hello world](#hello-world)
+
+<a name = "hello-world"></a>
 ### Hello world
 ```python
 print("Hello, world.")
