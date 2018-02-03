@@ -113,7 +113,7 @@ print(" %s | %s | %s \n" % (board[6],board[7],board[8]))
 
 # Check if there is a winner
 # You're a winner if:
-    #You have three spots occupied horizontally, vertically, or diagonally
+    # You have three spots occupied horizontally, vertically, or diagonally
 
 # Horizontally
 for i in range(0,7,3):
