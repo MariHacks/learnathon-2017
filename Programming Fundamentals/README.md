@@ -115,3 +115,7 @@ for i in range(0,7,3):
 ```
 
 ### Intro to `for` loops
+```python
+for i in range(0,100):
+    print('Raffi, %i' % i)
+```
