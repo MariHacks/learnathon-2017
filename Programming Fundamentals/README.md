@@ -155,6 +155,21 @@ if board[0] == board[4] == board[8] and board[0] != ' ':
 if board[2] == board[4] == board[6] and board[2] != ' ':
     print("There is a winner")
 ```
+### A cleaner and more efficient way to organize code
+```python
+# Minimum number in a list
+def minList(inputList):
+    currentMin = inputList[0]
+    for num in range(1,len(inputList)):
+        if inputList[num]<currentMin:
+            currentMin = inputList[num]
+    return currentMin
+
+#examples
+list1 = [-1, 4, 56, -100, 0]
+print(minList(list1))
+```
+
 ### Putting everything into functions
 ```python
 
