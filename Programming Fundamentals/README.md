@@ -158,20 +158,7 @@ if board[2] == board[4] == board[6] and board[2] != ' ':
 ```
 Some example here
 ```
-
-```python
-# Minimum number in a list
-def minList(inputList):
-    currentMin = inputList[0]
-    for num in range(1,len(inputList)):
-        if inputList[num] < currentMin:
-            currentMin = inputList[num]
-    return currentMin
-
-# examples
-list1 = [-1, 4, 56, -100, 0]
-print(minList(list1))
-```
+[Solutions to minimum value in a list exercise](https://github.com/marihacks/learnathon-solutions/blob/master/min-value.md)
 
 ### Putting everything into functions
 ```python
