@@ -1,3 +1,4 @@
+# Vertical Check Solution
 ```python
 # Pick some configuration for board
 board = ['X', 'X', 'X',
