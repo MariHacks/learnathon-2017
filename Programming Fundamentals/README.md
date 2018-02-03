@@ -93,3 +93,4 @@ if guess == myNumber:
 else:
     print("You suck.")
 ```
+[Solution to if statement exercise] (https://github.com/marihacks/learnathon-solutions/blob/master/if-statement.md)
