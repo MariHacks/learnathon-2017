@@ -51,7 +51,7 @@ boardPosition = int(boardPosition)
 board[boardPosition] = 'X'
 
 print("\nLet's play tic tac toe!\n")
-print(" %s | %s | %s "  % (board[0],board[1],board[2]))
+print(" %s | %s | %s "   % (board[0],board[1],board[2]))
 print(" %s | %s | %s "   % (board[3],board[4],board[5]))
 print(" %s | %s | %s \n" % (board[6],board[7],board[8]))
 ```
