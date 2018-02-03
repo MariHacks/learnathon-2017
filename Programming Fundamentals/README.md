@@ -58,9 +58,6 @@ print(" %s | %s | %s \n" % (board[6],board[7],board[8]))
 
 ### Check for winner
 ```python
-# Initialize board array
-board = [' ']*9
-
 # Pick some configuration for board
 board = ['X', 'X', 'X',
          'O', 'O', ' ',
@@ -97,9 +94,6 @@ else:
 
 ### A faster way to check for winner
 ```python
-# Initialize board array
-board = [' ']*9
-
 # Pick some configuration for board
 board = ['X', 'X', 'X',
          'O', 'O', ' ',
