@@ -119,3 +119,4 @@ for i in range(0,7,3):
 for i in range(0,100):
     print('Raffi, %i' % i)
 ```
+[Solution to vertical check exercise](https://github.com/marihacks/learnathon-solutions/blob/master/vertical-check.md)
