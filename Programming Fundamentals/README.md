@@ -7,6 +7,7 @@ Here you'll find all the source code from the workshop.
 
 If you have any questions, you can email us at info@marihacks.com.
 
+Skip to a section:
 * [Hello world](#01)
 * [Hello, name](#02)
 * [Print empty tic-tac-toe board](#03)
