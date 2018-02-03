@@ -18,11 +18,40 @@ name = input("What is your name? ")
 print("Hello, %s" % name)
 ```
 
-### Print Tic-tac-toe board
+### Print empty tic-tac-toe board
 ```python
 # Print an empty board
 
 print("  |  |  ")
 print("  |  |  ")
 print("  |  |  ")
+```
+### Add X and O to board
+```python
+# Create an array of 9 spaces to represent our board
+board = [' ']*9
+print(board)
+
+# Show change of value
+board[0] = 'X'
+
+print("\nLet's play tic tac toe!\n")
+print(" %s | %s | %s "  % (board[0],board[1],board[2]))
+print(" %s | %s | %s "   % (board[3],board[4],board[5]))
+print(" %s | %s | %s \n" % (board[6],board[7],board[8]))
+```
+### Let user add an X to the board
+```
+# Initialize board array
+board = [' ']*9
+
+boardPosition = input('Give me a number from 0-8: ')
+boardPosition = int(boardPosition)
+
+board[boardPosition] = 'X'
+
+print("\nLet's play tic tac toe!\n")
+print(" %s | %s | %s "  % (board[0],board[1],board[2]))
+print(" %s | %s | %s "   % (board[3],board[4],board[5]))
+print(" %s | %s | %s \n" % (board[6],board[7],board[8]))
 ```
