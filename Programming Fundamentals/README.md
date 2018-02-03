@@ -120,3 +120,38 @@ for i in range(0,100):
     print('Raffi, %i' % i)
 ```
 [Solution to vertical check exercise](https://github.com/marihacks/learnathon-solutions/blob/master/vertical-check.md)
+
+### Checking for diaganol lines
+```python
+# Pick some configuration for board
+board = ['X', 'X', 'X',
+         'O', 'O', 'O',
+         ' ', ' ', ' ' ]
+
+# Print the board
+print("\nLet's play tic tac toe!\n")
+print(" %s | %s | %s "  % (board[0],board[1],board[2]))
+print(" %s | %s | %s "   % (board[3],board[4],board[5]))
+print(" %s | %s | %s \n" % (board[6],board[7],board[8]))
+
+# Check if there is a winner
+# You're a winner if:
+    # You have three spots occupied horizontally, vertically, or diagonally
+
+# Horizontally
+for i in range(0,7,3):
+    if board[i] == board[i+1] == board[i+2] and board[i] != ' ':
+        print('There is a winner')
+
+# Vertically
+for i in range(0,3,1):
+    if board[i] == board[i+3] == board[i+6] and board[i] != ' ':
+        print('There is a winner')
+
+# Diagonally
+if board[0] == board[4] == board[8] and board[0] != ' ':
+    print('There is a winner')
+
+if board[2] == board[4] == board[6] and board[2] != ' ':
+    print('There is a winner')
+```
