@@ -17,3 +17,12 @@ print("Hello, world.")
 name = input("What is your name? ")
 print("Hello, %s" % name)
 ```
+
+### Print Tic-tac-toe board
+```python
+# Print an empty board
+
+print("  |  |  ")
+print("  |  |  ")
+print("  |  |  ")
+```
