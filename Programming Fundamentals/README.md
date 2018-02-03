@@ -111,7 +111,7 @@ print(" %s | %s | %s \n" % (board[6],board[7],board[8]))
 # Horizontally
 for i in range(0,7,3):
     if board[i] == board[i+1] == board[i+2] and board[i] != ' ':
-        print('There is a winner')
+        print("There is a winner")
 ```
 
 ### Intro to `for` loops
@@ -141,17 +141,17 @@ print(" %s | %s | %s \n" % (board[6],board[7],board[8]))
 # Horizontally
 for i in range(0,7,3):
     if board[i] == board[i+1] == board[i+2] and board[i] != ' ':
-        print('There is a winner')
+        print("There is a winner")
 
 # Vertically
 for i in range(0,3,1):
     if board[i] == board[i+3] == board[i+6] and board[i] != ' ':
-        print('There is a winner')
+        print("There is a winner")
 
 # Diagonally
 if board[0] == board[4] == board[8] and board[0] != ' ':
-    print('There is a winner')
+    print("There is a winner")
 
 if board[2] == board[4] == board[6] and board[2] != ' ':
-    print('There is a winner')
+    print("There is a winner")
 ```
