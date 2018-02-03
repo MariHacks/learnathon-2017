@@ -94,3 +94,29 @@ else:
     print("You suck.")
 ```
 [Solution to if statement exercise](https://github.com/marihacks/learnathon-solutions/blob/master/if-statement.md)
+
+### A faster way to check for winner
+```python
+# Initialize board array
+board = [' ']*9
+
+# Pick some configuration for board
+board = ['X', 'X', 'X',
+		 'O', 'O', 'O',
+		 ' ', ' ', ' ' ]
+
+# Print the board
+print("\nLet's play tic tac toe!\n")
+print(" %s | %s | %s "  % (board[0],board[1],board[2]))
+print(" %s | %s | %s "   % (board[3],board[4],board[5]))
+print(" %s | %s | %s \n" % (board[6],board[7],board[8]))
+
+# Check if there is a winner
+# You're a winner if:
+	#You have three spots occupied horizontally, vertically, or diagonally
+
+# Horizontally
+for i in range(0,7,3):
+	if board[i] == board[i+1] == board[i+2] and board[i] != ' ':
+		print('There is a winner')
+```
