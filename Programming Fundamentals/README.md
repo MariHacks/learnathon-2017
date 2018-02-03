@@ -296,21 +296,23 @@ def isWinner(board):
 board = [' ']*9
 player = 'X'
 
-while True:
-    print_board(board)
+# Preliminary print
+print_board(board)
 
+while True:
     # Get user input
     x = input("Give me a number from 1-9: ")
     x = int(x)
 
     # Put X into board
     board[x-1] = player
-
+    print_board(board)
+    
     if isWinner(board):
         print('You win!')
 	break
 	
-	# Switch players
+    # Switch players
     else:
 	if player == 'X':
 	    player = 'O'
