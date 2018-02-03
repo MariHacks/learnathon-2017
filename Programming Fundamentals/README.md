@@ -55,3 +55,27 @@ print(" %s | %s | %s "   % (board[0],board[1],board[2]))
 print(" %s | %s | %s "   % (board[3],board[4],board[5]))
 print(" %s | %s | %s \n" % (board[6],board[7],board[8]))
 ```
+
+### Check for winner
+```python
+# Initialize board array
+board = [' ']*9
+
+# Pick some configuration for board
+board = ['X', 'X', 'X',
+		 'O', 'O', 'O',
+		 ' ', ' ', ' ' ]
+
+# Print the board
+print("\nLet's play tic tac toe!\n")
+print(" %s | %s | %s "  % (board[0],board[1],board[2]))
+print(" %s | %s | %s "   % (board[3],board[4],board[5]))
+print(" %s | %s | %s \n" % (board[6],board[7],board[8]))
+
+# Check if there is a winner
+# You're a winner if you have three spots occupied horizontally, vertically, or diagonally
+
+# Horizontally
+if (board[0] == board[1] == board[2] and board[0]!= ' ') or (board[3] == board[4] == board[5] and board[3]!=' ') or (board[6] == board[7] == board[8] and board[0]!=' '):
+	print('There is a winner')
+```
