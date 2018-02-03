@@ -8,6 +8,22 @@ Here you'll find all the source code from the workshop.
 If you have any questions, you can email us at info@marihacks.com.
 
 * [Hello world](#01)
+* [Hello, name](#02)
+* [Print empty tic-tac-toe board](#03)
+* [Add X and O to board](#04)
+* [Let user add an X to the board](#05)
+* [Check for winner](#06)
+* [Intro to `if` statement](#07)
+* [A faster way to check for winner](#08)
+* [Intro to `for` loops](#09)
+* [Checking for diaganol lines](#10)
+* [A cleaner and more efficient way to organize code](#11)
+* [Putting everything into functions](#12)
+* [Intro to `while` loops](#13)
+* [Getting user input continuously](#14)
+* [Adding players](#15)
+* [Check for tie and call it a game](#16)
+
 
 <a name = "01"></a>
 ### Hello world
