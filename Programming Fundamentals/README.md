@@ -79,3 +79,16 @@ print(" %s | %s | %s \n" % (board[6],board[7],board[8]))
 if (board[0] == board[1] == board[2] and board[0]!= ' ') or (board[3] == board[4] == board[5] and board[3]!=' ') or (board[6] == board[7] == board[8] and board[0]!=' '):
 	print('There is a winner')
 ```
+
+### Intro to if Statements
+```python
+guess = input("Give me a number between 1 and 5: ")
+guess = int(guess)
+
+myNumber = 3
+
+if guess == myNumber:
+	print("Yay")
+else:
+	print("You suck.")
+```
