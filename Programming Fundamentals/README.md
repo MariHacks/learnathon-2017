@@ -155,3 +155,41 @@ if board[0] == board[4] == board[8] and board[0] != ' ':
 if board[2] == board[4] == board[6] and board[2] != ' ':
     print("There is a winner")
 ```
+### Putting everything into functions
+```python
+# Initialize board array
+# Pick some configuration for board
+board = ['X', 'X', 'X',
+         'O', 'O', 'O',
+         ' ', ' ', ' ' ]
+
+# Print the board
+print("\nLet's play tic tac toe!\n")
+print(" %s | %s | %s "  % (board[0],board[1],board[2]))
+print(" %s | %s | %s "   % (board[3],board[4],board[5]))
+print(" %s | %s | %s \n" % (board[6],board[7],board[8]))
+
+# Check if there is a winner
+# You're a winner if:
+    # You have three spots occupied horizontally, vertically, or diagonally
+
+# Horizontally
+def checkHorizontal(board):
+    for i in range(0,7,3):
+        if board[i] == board[i+1] == board[i+2] and board[i] != ' ':
+            return True
+
+# Vertically
+def checkVertical(board):
+    for i in range(0,3,1):
+        if board[i] == board[i+3] == board[i+6] and board[i] != ' ':
+            return True
+
+# Diagonally
+def checkDiaganol(board):
+    if board[0] == board[4] == board[8] and board[0] != ' ' or (board[2] == board[4] == board[6] and board[2] != ' '):
+        return True
+
+if checkHorizontal(board) or checkVertical(board) or checkDiaganol(board):
+    print('There is a winnner')
+```
