@@ -2,7 +2,7 @@
 ```python
 # Pick some configuration for board
 board = ['X', 'X', 'X',
-         'O', 'O', 'O',
+         'O', 'O', ' ',
          ' ', ' ', ' ' ]
 
 # Print the board
