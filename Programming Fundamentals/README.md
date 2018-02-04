@@ -187,9 +187,13 @@ if board[2] == board[4] == board[6] and board[2] != ' ':
 ### A cleaner and more efficient way to organize code
 ```python
 def factorial(n):
-    for i in range(1,n+1):
-        fact = fact*i
-    return fact
+    if  n == 0:
+        return 1
+    else:
+        fact = 1
+        for r in range(n, 1, -1):
+            fact = fact*r
+        return fact
 ``````
 [Solution to minimum value in a list exercise](https://github.com/marihacks/learnathon-solutions/blob/master/min-value.md)
 
