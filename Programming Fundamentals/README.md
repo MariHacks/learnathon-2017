@@ -8,7 +8,7 @@ Here you'll find all the source code from the workshop.
 If you have any questions, you can email us at info@marihacks.com.
 
 Skip to a section:
-* [The terminal](#00)
+* [Where to edit/run your code](#00)
 * [Hello world](#01)
 * [Hello, name](#02)
 * [Print empty tic-tac-toe board](#03)
@@ -26,11 +26,35 @@ Skip to a section:
 * [Check for tie and call it a game](#15)
 
 <a name = "00"></a>
-### The terminal
-Basic commands:
+### Where to edit/run your code
+*Note: We edited this section to accomodate for those for whom Terminal/Python was not working.*
+There are two options to run your code:
+* On your computer using the Terminal & Atom
+* Online using [Repl.it](repl.it)
+
+#### The terminal and Atom
+Download [Atom](atom.io).
+
+If on Mac: Launch Terminal (by using search icon in top right of your screen)
+If on PC: Launch Command Prompt by searching for "Command Prompt" in the Start Menu
+
+Create a folder in the desktop called `Learnathon`
+
+Basic terminal commands:
 * `ls` (short for "list") on Mac/Linux or `dir` (short for "directory") on Windows to show all the files in the current directory ("directory" is a fancy word for folder)
 * `cd` (short for "change directory") followed by the name of the directory (inside the current folder)
 You can type these commands followed by the RETURN/ENTER key to execute them.
+
+To move to the folder that we created in our Desktop, we can run the following sequence of commands:
+`cd Desktop`
+`cd Learnathon`
+
+We can then create a file in Atom (call it `hello.py`) and save it in our `Learnathon` folder.
+
+To run the file in Terminal (once we've used the `cd` command to navigate to the right folder), we can write: `python3 hello.py`.
+
+#### Repl.it (Online)
+You can also use [Repl.it](repl.it) to run the code. Sign up for an account and select Python3 and you're good to go!
 
 <a name = "01"></a>
 ### Hello world
