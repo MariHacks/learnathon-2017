@@ -110,7 +110,7 @@ if board[0] == board[1] == board[2] and board[0]!= ' ':
     print('There is a winner')
 if board[3] == board[4] == board[5] and board[3]!=' ':
     print('There is a winner')
-if board[6] == board[7] == board[8] and board[0]!=' ':
+if board[6] == board[7] == board[8] and board[6]!=' ':
     print('There is a winner')
 ```
 
