@@ -45,9 +45,11 @@ Basic terminal commands:
 * `cd` (short for "change directory") followed by the name of the directory (inside the current folder)
 You can type these commands followed by the RETURN/ENTER key to execute them.
 
-To move to the folder that we created in our Desktop, we can run the following sequence of commands:
-`cd Desktop`
-`cd Learnathon`
+To move to the folder that we created in our Desktop, we can run the following commands:
+```
+cd Desktop
+cd Learnathon
+```
 
 We can then create a file in Atom (call it `hello.py`) and save it in our `Learnathon` folder.
 
