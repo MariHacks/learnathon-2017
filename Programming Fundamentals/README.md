@@ -187,9 +187,12 @@ if board[2] == board[4] == board[6] and board[2] != ' ':
 ```
 <a name = "11"></a>
 ### A cleaner and more efficient way to organize code
-```
-Some example here
-```
+```python
+def factorial(n):
+    for i in range(1,n+1):
+        fact = fact*i
+    return fact
+``````
 [Solutions to minimum value in a list exercise](https://github.com/marihacks/learnathon-solutions/blob/master/min-value.md)
 
 <a name = "12"></a>
@@ -236,15 +239,6 @@ def isWinner(board):
 # Let's try it
 if isWinner(board):
     print('There is a winner!')
-```
-
-<a name = "13"></a>
-### Intro to `while` loops
-```python
-def factorial(n):
-    for i in range(1,n+1):
-        fact = fact*i
-    return fact
 ```
 
 <a name = "14"></a>
