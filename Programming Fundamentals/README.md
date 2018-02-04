@@ -17,7 +17,7 @@ Skip to a section:
 * [Intro to `if` statement](#07)
 * [A faster way to check for winner](#08)
 * [Intro to `for` loops](#09)
-* [Checking for diaganol lines](#10)
+* [Checking for diagonal lines](#10)
 * [A cleaner and more efficient way to organize code](#11)
 * [Putting everything into functions](#12)
 * [Getting user input continuously](#13)
@@ -150,7 +150,7 @@ for i in range(0,100):
 [Solution to vertical check exercise](https://github.com/marihacks/learnathon-solutions/blob/master/vertical-check.md)
 
 <a name = "10"></a>
-### Checking for diaganol lines
+### Checking for diagonal lines
 ```python
 # Pick some configuration for board
 board = ['X', 'X', 'X',
@@ -225,13 +225,13 @@ def checkVertical(board):
             return True
 
 # Diagonally
-def checkDiaganol(board):
+def checkDiagonal(board):
     if board[0] == board[4] == board[8] and board[0] != ' ' or (board[2] == board[4] == board[6] and board[2] != ' '):
         return True
 
 # Check if there is a winner using the functions from above
 def isWinner(board):
-    if checkHorizontal(board) or checkVertical(board) or checkDiaganol(board):
+    if checkHorizontal(board) or checkVertical(board) or checkDiagonal(board):
         return True
 
 # Let's try it
@@ -264,13 +264,13 @@ def checkVertical(board):
             return True
 
 # Diagonally
-def checkDiaganol(board):
+def checkDiagonal(board):
     if board[0] == board[4] == board[8] and board[0] != ' ' or (board[2] == board[4] == board[6] and board[2] != ' '):
         return True
 
 # Check if there is a winner using the functions from above
 def isWinner(board):
-    if checkHorizontal(board) or checkVertical(board) or checkDiaganol(board):
+    if checkHorizontal(board) or checkVertical(board) or checkDiagonal(board):
         return True
 
 # Initialize board array
@@ -318,13 +318,13 @@ def checkVertical(board):
             return True
 
 # Diagonally
-def checkDiaganol(board):
+def checkDiagonal(board):
     if board[0] == board[4] == board[8] and board[0] != ' ' or (board[2] == board[4] == board[6] and board[2] != ' '):
         return True
 
 # Check if there is a winner using the functions from above
 def isWinner(board):
-    if checkHorizontal(board) or checkVertical(board) or checkDiaganol(board):
+    if checkHorizontal(board) or checkVertical(board) or checkDiagonal(board):
         return True
 
 # Initialize board array
@@ -380,13 +380,13 @@ def checkVertical(board):
             return True
 
 # Diagonally
-def checkDiaganol(board):
+def checkDiagonal(board):
     if board[0] == board[4] == board[8] and board[0] != ' ' or (board[2] == board[4] == board[6] and board[2] != ' '):
         return True
 
 # Check if there is a winner using the functions from above
 def isWinner(board):
-    if checkHorizontal(board) or checkVertical(board) or checkDiaganol(board):
+    if checkHorizontal(board) or checkVertical(board) or checkDiagonal(board):
         return True
 
 # Initialize board array
