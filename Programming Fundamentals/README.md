@@ -191,7 +191,7 @@ def factorial(n):
         fact = fact*i
     return fact
 ``````
-[Solutions to minimum value in a list exercise](https://github.com/marihacks/learnathon-solutions/blob/master/min-value.md)
+[Solution to minimum value in a list exercise](https://github.com/marihacks/learnathon-solutions/blob/master/min-value.md)
 
 <a name = "12"></a>
 ### Putting everything into functions
