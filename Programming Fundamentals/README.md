@@ -106,7 +106,11 @@ print(" %s | %s | %s \n" % (board[6],board[7],board[8]))
     # You're a winner if you have three spots occupied horizontally, vertically, or diagonally
 
 # Horizontally
-if (board[0] == board[1] == board[2] and board[0]!= ' ') or (board[3] == board[4] == board[5] and board[3]!=' ') or (board[6] == board[7] == board[8] and board[0]!=' '):
+if board[0] == board[1] == board[2] and board[0]!= ' ':
+    print('There is a winner')
+if board[3] == board[4] == board[5] and board[3]!=' ':
+    print('There is a winner')
+if board[6] == board[7] == board[8] and board[0]!=' ':
     print('There is a winner')
 ```
 
