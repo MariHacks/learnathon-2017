@@ -20,10 +20,9 @@ Skip to a section:
 * [Checking for diaganol lines](#10)
 * [A cleaner and more efficient way to organize code](#11)
 * [Putting everything into functions](#12)
-* [Intro to `while` loops](#13)
-* [Getting user input continuously](#14)
-* [Adding players](#15)
-* [Check for tie and call it a game](#16)
+* [Getting user input continuously](#13)
+* [Adding players](#14)
+* [Check for tie and call it a game](#15)
 
 
 <a name = "01"></a>
@@ -241,7 +240,7 @@ if isWinner(board):
     print('There is a winner!')
 ```
 
-<a name = "14"></a>
+<a name = "13"></a>
 ### Getting user input continuously
 ```python
 # Print the board
@@ -295,7 +294,7 @@ while True:
         break
 
 ```
-<a name = "15"></a>
+<a name = "14"></a>
 ### Adding players
 ```python
 # Print the board
@@ -357,7 +356,7 @@ while True:
             player = 'X'
 ```
 
-<a name = "16"></a>
+<a name = "15"></a>
 ### Check for tie and call it a game.
 ```python
 # Print the board
