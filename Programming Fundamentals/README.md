@@ -29,7 +29,7 @@ Skip to a section:
 ### The terminal
 Basic commands:
 * `ls` (short for "list") on Mac/Linux or `dir` (short for "directory") on Windows to show all the files in the current directory ("directory" is a fancy word for folder)
-* `cd` (short for "change directory")
+* `cd` (short for "change directory") followed by the name of the directory (inside the current folder)
 You can type these commands followed by the RETURN/ENTER key to execute them.
 
 <a name = "01"></a>
