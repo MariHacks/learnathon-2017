@@ -8,6 +8,7 @@ Here you'll find all the source code from the workshop.
 If you have any questions, you can email us at info@marihacks.com.
 
 Skip to a section:
+* [The terminal](#00)
 * [Hello world](#01)
 * [Hello, name](#02)
 * [Print empty tic-tac-toe board](#03)
@@ -24,6 +25,12 @@ Skip to a section:
 * [Adding players](#14)
 * [Check for tie and call it a game](#15)
 
+<a name = "00"></a>
+### The terminal
+Basic commands:
+* `ls` (short for "list") on Mac/Linux or `dir` (short for "directory") on Windows to show all the files in the current directory ("directory" is a fancy word for folder)
+* `cd` (short for "change directory")
+You can type these commands followed by the RETURN/ENTER key to execute them.
 
 <a name = "01"></a>
 ### Hello world
