@@ -240,8 +240,11 @@ if isWinner(board):
 
 <a name = "13"></a>
 ### Intro to `while` loops
-```
-Some while loop example
+```python
+def factorial(n):
+    for i in range(1,n+1):
+        fact = fact*i
+    return fact
 ```
 
 <a name = "14"></a>
