@@ -153,7 +153,7 @@ if guess == myNumber:
 else:
     print("You suck.")
 ```
-[Solution to if statement exercise](https://github.com/marihacks/learnathon-solutions/blob/master/if-statement.md)
+[Solution to if statement exercise](solutions/if-statement.md)
 
 <a name = "08"></a>
 ### A faster way to check for winner
@@ -184,7 +184,7 @@ for i in range(0,7,3):
 for i in range(0,100):
     print('Raffi, %i' % i)
 ```
-[Solution to vertical check exercise](https://github.com/marihacks/learnathon-solutions/blob/master/vertical-check.md)
+[Solution to vertical check exercise](solutions/vertical-check.md)
 
 <a name = "10"></a>
 ### Checking for diagonal lines
@@ -232,7 +232,7 @@ def factorial(n):
             fact = fact*r
         return fact
 ``````
-[Solution to minimum value in a list exercise](https://github.com/marihacks/learnathon-solutions/blob/master/min-value.md)
+[Solution to minimum value in a list exercise](solutions/min-value.md)
 
 <a name = "12"></a>
 ### Putting everything into functions

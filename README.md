@@ -1,6 +1,11 @@
-# Material from MariHacks Learnathon
+# Material from MariHacks Learnathon 2017
+
 Workshops:
-* **Programming Fundamentals** by Wilfred Mason and Raffi Hotter: https://github.com/marihacks/learnathon/
-* **Intro to iOS Development** by Anthony Fiorito: see project folder above called "IOS Workshop" for slides and source code
-* **Intro to HTML/CSS** by Adriel Arsenault: https://github.com/aarsenault/intro_to_HTML_CSS
-* **Databases and SQL** by Iraj Hedayati: see project folder above called "Databases and SQL Workshop" for slides and source code
+* [Programming Fundamentals](Programming%20Fundamentals/README.md)
+  by Wilfred Mason and Raffi Hotter
+* [Intro to iOS Development](IOS%20Workshop)
+  by Anthony Fiorito
+* [Intro to HTML/CSS](https://github.com/aarsenault/intro_to_HTML_CSS)
+  by Adriel Arsenault
+* [Databases and SQL](Database%20and%20SQL%20Workshop)
+  by Iraj Hedayati

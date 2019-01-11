@@ -14,4 +14,4 @@ elif y > x:
 else:
     print("They're the same dumbo")
 ```
-[Back to learnathon workshop](https://github.com/marihacks/learnathon)
+[Back to learnathon workshop](../README.md)

@@ -11,3 +11,4 @@ def minList(inputList):
 list1 = [-1, 4, 56, -100, 0]
 print(minList(list1))
 ```
+[Back to learnathon workshop](../README.md)
